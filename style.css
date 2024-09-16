@@ -1,0 +1,147 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh; 
+    background-image: url('images/leaves.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+header {
+    background-color: #e7f1d5;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+header > a {
+    font-family: "blithe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(31, 62, 12);
+    
+}
+header > nav {
+    float: right;
+    
+}
+
+.mainnav a {
+    color: rgb(31, 62, 12);
+    text-decoration: none;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    transition: all 0.3s ease; 
+}
+
+.mainnav a:hover {
+    color: #ffffff; 
+    background-color: rgb(31, 62, 12); 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+}
+
+
+article {
+    background-color: white;
+    padding: 0px 30px 0px 30px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; 
+    float: left;
+    max-width: 750px;
+}
+
+h1{
+    color: rgb(31, 62, 12);
+    font-family: "blithe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    margin-bottom: auto;
+}
+
+.image-figure img {
+    max-width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;   
+}
+
+p {
+    font-size: 16px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "blithe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+}
+
+
+aside {
+    background-color: white;
+    padding: 25px 75px 25px 75px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    float: right;
+    max-width: 400px; 
+    margin-left: 15px; 
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.asidepic {
+    width:50px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.asidenav a{
+    text-decoration: none;
+}
+
+main::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+
+.asidetitle {
+    text-align: center;
+    font-family: "blithe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+}
+
+footer {
+    text-align: center;
+    background-color: #e7f1d5;
+    padding: 50px 50px 50px 50px;
+    color:rgb(31, 62, 12);
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 100%;
+    position:relative;
+    margin-top: 50px;
+}
