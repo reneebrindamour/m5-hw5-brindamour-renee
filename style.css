@@ -4,13 +4,20 @@
     border: 0;
 }
 
-body {
-    min-height: 100vh; 
+body { 
     background-image: url('images/leaves.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
 }
+
+hr {
+    height: 1px;
+    background-color: #000; 
+    border: none; 
+    margin: 10px 0; 
+}
+
 
 .container {
     max-width: 1200px;
@@ -26,12 +33,13 @@ header {
 
 h1 {
     width: 50%;
-    display: inline-block;
     font-family: "blithe", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
     color: rgb(31, 62, 12);
+    display: inline-block;
+    
     
 }
 
@@ -54,6 +62,12 @@ header nav a {
     text-transform:uppercase;
     transition: all 0.3s ease; 
 
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1
 }
 
 header nav a:hover {
