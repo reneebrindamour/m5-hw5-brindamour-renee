@@ -38,9 +38,7 @@ h1 {
     font-style: normal;
     font-size: 40px;
     color: rgb(31, 62, 12);
-    display: inline-block;
-    
-    
+    display: inline-block;    
 }
 
 nav {
@@ -146,7 +144,7 @@ footer {
     font-family: "montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
-    border-top: 3px solid rgb(31, 62, 12);
+    border-top: 10px solid rgb(31, 62, 12);
 
 }
 
